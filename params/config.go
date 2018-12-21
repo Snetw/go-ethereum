@@ -28,12 +28,9 @@ var (
 	MainnetGenesisHash = common.HexToHash("0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3")
 	TestnetGenesisHash = common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d")
 	RinkebyGenesisHash = common.HexToHash("0x6341fd3daf94b748c72ced5a5b26028f2474f5f00d824504e4fa37a75767e177")
-<<<<<<< HEAD
 	TBCTestnetGenesisHash = common.HexToHash("0xd9e7ed10f755e5e34b0d8c887cfd62de7634c4443c30c3f2097fe1b32e9a0dfd")
-=======
 	TBCMainnetGenesisHash = common.HexToHash("0xd9e7ed10f755e5e34b0d8c887cfd62de7634c4443c30c3f2097fe1b32e9a0dfd")
 	TBCTestnetGenesisHash = common.HexToHash("0x0000000000000000000000000000000000000000000000000000000000000000")
->>>>>>> f0cb30f9a05124b04dd634cebac1cf6a599187e2
 )
 
 var (
@@ -49,10 +46,8 @@ var (
 		EIP158Block:         big.NewInt(2675000),
 		ByzantiumBlock:      big.NewInt(4370000),
 		ConstantinopleBlock: big.NewInt(7080000),
-<<<<<<< HEAD
-=======
 		TbcMainnetBlock:     nil,
-		TbcTestnetBlock:      nil,
+		TbcTestnetBlock:     nil,
 		Ethash:              new(EthashConfig),
 	}
 	
@@ -68,9 +63,8 @@ var (
 		EIP158Block:         big.NewInt(0),
 		ByzantiumBlock:      big.NewInt(0),
 		ConstantinopleBlock: nil,
-		TbcTestnetBlock:      nil,
+		TbcTestnetBlock:     nil,
 		TbcMainnetBlock:     big.NewInt(0),
->>>>>>> f0cb30f9a05124b04dd634cebac1cf6a599187e2
 		Ethash:              new(EthashConfig),
 	}
 	
@@ -86,11 +80,8 @@ var (
 		EIP158Block:         big.NewInt(0),
 		ByzantiumBlock:      big.NewInt(0),
 		ConstantinopleBlock: nil,
-<<<<<<< HEAD
-=======
 		TbcMainnetBlock:     nil,
 		TbcTestnetBlock:      big.NewInt(0),
->>>>>>> f0cb30f9a05124b04dd634cebac1cf6a599187e2
 		Ethash:              new(EthashConfig),
 	}
 
@@ -115,11 +106,8 @@ var (
 		EIP158Block:         big.NewInt(10),
 		ByzantiumBlock:      big.NewInt(1700000),
 		ConstantinopleBlock: big.NewInt(4230000),
-<<<<<<< HEAD
-=======
 		TbcMainnetBlock:     nil,
-		TbcTestnetBlock:      nil,
->>>>>>> f0cb30f9a05124b04dd634cebac1cf6a599187e2
+		TbcTestnetBlock:     nil,
 		Ethash:              new(EthashConfig),
 	}
 
@@ -144,11 +132,8 @@ var (
 		EIP158Block:         big.NewInt(3),
 		ByzantiumBlock:      big.NewInt(1035301),
 		ConstantinopleBlock: big.NewInt(3660663),
-<<<<<<< HEAD
-=======
 		TbcMainnetBlock:     nil,
-		TbcTestnetBlock:      nil,
->>>>>>> f0cb30f9a05124b04dd634cebac1cf6a599187e2
+		TbcTestnetBlock:     nil,
 		Clique: &CliqueConfig{
 			Period: 15,
 			Epoch:  30000,
